@@ -2,10 +2,10 @@
 //  Card.swift
 //  CardWorkout-SwiftUI
 //
-import Foundation
+import SwiftUI
 
 struct CardDeck {
-    static var shortNames = [
+    static let shortNames = [
         "2H",
         "3H",
         "4H",
@@ -59,4 +59,12 @@ struct CardDeck {
         "KD",
         "AD"
     ]
+    // Experiment with static dictionary to images:
+    //    -- Result: no memory or performance gain
+    // static let images = shortNames.reduce([String: UIImage]()) {
+    //    (dict, shortName) -> [String : UIImage] in
+    //    var dict = dict
+    //    dict[shortName] = UIImage(named: shortName)
+    //    return dict
+    //}
 }
