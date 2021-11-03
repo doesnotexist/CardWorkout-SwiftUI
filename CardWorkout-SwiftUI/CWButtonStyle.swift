@@ -15,6 +15,5 @@ struct CWButtonStyle: ButtonStyle {
             .background(self.backgroundColor)
             .cornerRadius(15)
             .font(Font.title2.bold())
-//            .background(self.backgroundColor ?? .primary)
     }
 }
