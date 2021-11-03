@@ -19,7 +19,7 @@ class RandomCardTimer: ObservableObject {
         )
         .autoconnect()
         .sink { [weak self] _ in
-            self?.cardName = Card.shortNames.randomElement() ?? "AS"
+            self?.cardName = CardDeck.shortNames.randomElement() ?? "AS"
         }
     }
     

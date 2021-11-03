@@ -10,7 +10,7 @@
 		0780597D2731D9E5006B2817 /* CWApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0780597C2731D9E5006B2817 /* CWApp.swift */; };
 		078059812731D9E7006B2817 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 078059802731D9E7006B2817 /* Assets.xcassets */; };
 		078059842731D9E7006B2817 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 078059832731D9E7006B2817 /* Preview Assets.xcassets */; };
-		078059952733087B006B2817 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 078059942733087B006B2817 /* Card.swift */; };
+		078059952733087B006B2817 /* CardDeck.swift in Sources */ = {isa = PBXBuildFile; fileRef = 078059942733087B006B2817 /* CardDeck.swift */; };
 		07805997273311C9006B2817 /* CWRulesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07805996273311C9006B2817 /* CWRulesView.swift */; };
 		0780599927331C84006B2817 /* RandomCardTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0780599827331C84006B2817 /* RandomCardTimer.swift */; };
 		0780599B27331CCB006B2817 /* CWMainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0780599A27331CCB006B2817 /* CWMainView.swift */; };
@@ -22,7 +22,7 @@
 		0780597C2731D9E5006B2817 /* CWApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CWApp.swift; sourceTree = "<group>"; };
 		078059802731D9E7006B2817 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		078059832731D9E7006B2817 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		078059942733087B006B2817 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		078059942733087B006B2817 /* CardDeck.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardDeck.swift; sourceTree = "<group>"; };
 		07805996273311C9006B2817 /* CWRulesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CWRulesView.swift; sourceTree = "<group>"; };
 		0780599827331C84006B2817 /* RandomCardTimer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomCardTimer.swift; sourceTree = "<group>"; };
 		0780599A27331CCB006B2817 /* CWMainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CWMainView.swift; sourceTree = "<group>"; };
@@ -59,7 +59,7 @@
 		0780597B2731D9E5006B2817 /* CardWorkout-SwiftUI */ = {
 			isa = PBXGroup;
 			children = (
-				078059942733087B006B2817 /* Card.swift */,
+				078059942733087B006B2817 /* CardDeck.swift */,
 				0780597C2731D9E5006B2817 /* CWApp.swift */,
 				0780599E27332CB5006B2817 /* CWButtonStyle.swift */,
 				0780599A27331CCB006B2817 /* CWMainView.swift */,
@@ -149,7 +149,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				078059952733087B006B2817 /* Card.swift in Sources */,
+				078059952733087B006B2817 /* CardDeck.swift in Sources */,
 				07805997273311C9006B2817 /* CWRulesView.swift in Sources */,
 				0780599927331C84006B2817 /* RandomCardTimer.swift in Sources */,
 				0780599F27332CB5006B2817 /* CWButtonStyle.swift in Sources */,

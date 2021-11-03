@@ -4,7 +4,7 @@
 //
 import Foundation
 
-struct Card {
+struct CardDeck {
     static var shortNames = [
         "2H",
         "3H",
